@@ -1,9 +1,11 @@
-# js-lab-62
-### Lab62 Object: Clone Object2
-- ให้สร้าง Object ที่มี property เหมือน state1
-- แต่ loading ให้มีค่าเป็น false point มีค่า 75
-- และให้เพิ่ม property success เข้าไปโดยให้มีค่าเป็น true
+# js-lab-63
+### Lab63 Object: Clone Object3
+- ให้ merge Object ทั้ง 4 เข้าด้วยกัน แล้วเก็บไว้ในตัวแปรชื่อ permission
+- หาก key ซ้ำกันให้ใช้ค่าของตัวแปรที่มีตัวเลขสูงกว่า
 
 ```JavaScript
-const state1 = { username: 'john', point: 100, loading: true };
+const permission1 = { canView: false, canDelete: false };
+const permission2 = { canUpdate: true, canCreate: true };
+const permission3 = { canCreate: false, canDelete: true };
+const permission4 = { canView: true };
 ```
